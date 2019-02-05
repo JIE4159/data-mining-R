@@ -1,4 +1,4 @@
-mydata <- read.csv("/Users/mengzhang/Desktop/5703 project/report 2/training data.csv")
+mydata <- read.csv("/Users/jiexiong/Desktop/5703 project/report 2/training data.csv")
 head(mydata)
 summary(mydata)
 sapply(mydata, sd)  ###standard deviations  DELETE the NA variables
